@@ -13,7 +13,7 @@ jobs:
              password: ${{ secrets.docker_hub_password }}
 
 
- steps:
+    steps:
       - name: Clone
         uses: actions/checkout@v2
 
