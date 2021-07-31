@@ -8,7 +8,7 @@ jobs:
   test:
     container: 
          image: frappe-ubuntu:v1
-        credentials: 
+         credentials: 
              username: rahul1810
              password: ${{ secrets.docker_hub_password }}
 
